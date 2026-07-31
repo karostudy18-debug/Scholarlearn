@@ -1,0 +1,34 @@
+﻿{
+  "name": "Scholar Learn",
+  "title": "Scholar Learn — Abacus, Math & Learning Blog",
+  "description": "Scholar Learn is a blog about abacus training, mental math, and online learning tools.",
+  "contentRoot": "content",
+  "theme": {
+    "name": "lessflowery",
+    "colorMode": "light"
+  },
+  "navbar": {
+    "sticky": true,
+    "showHome": true,
+    "showLabels": true
+  },
+  "nav": [
+    { "label": "Home", "url": "/" },
+    { "label": "Blog", "url": "/blog" },
+    { "label": "Resources", "url": "/resources" },
+    { "label": "About", "url": "/about" },
+    { "label": "Contact", "url": "/contact" }
+  ],
+  "footer": {
+    "copyright": "Scholar Learn",
+    "showPoweredBy": false
+  },
+  "home": {
+    "showList": {
+      "type": "blog",
+      "listTitle": "Latest Posts",
+      "listSubtitle": "Guides, history, and resources on abacus and mental math.",
+      "limit": 9
+    }
+  }
+}
