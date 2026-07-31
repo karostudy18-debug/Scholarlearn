@@ -1,34 +1,53 @@
 ﻿{
-  "name": "Scholar Learn",
-  "title": "Scholar Learn — Abacus, Math & Learning Blog",
-  "description": "Scholar Learn is a blog about abacus training, mental math, and online learning tools.",
-  "contentRoot": "content",
-  "theme": {
-    "name": "lessflowery",
-    "colorMode": "light"
-  },
-  "navbar": {
-    "sticky": true,
-    "showHome": true,
-    "showLabels": true
-  },
-  "nav": [
-    { "label": "Home", "url": "/" },
-    { "label": "Blog", "url": "/blog" },
-    { "label": "Resources", "url": "/resources" },
-    { "label": "About", "url": "/about" },
-    { "label": "Contact", "url": "/contact" }
+  "siteName": "Scholar Learn",
+  "description": "Free guides, history, and resources on abacus training and mental math.",
+  "theme": "lessflowery",
+  "logo": "\ud83d\udcdd",
+  "showHero": true,
+  "cta": [
+    { "label": "Read the Blog", "href": "/blog" },
+    { "label": "Learn More", "href": "/about" }
   ],
-  "footer": {
-    "copyright": "Scholar Learn",
-    "showPoweredBy": false
+  "nav": {
+    "title": "Scholar Learn",
+    "links": [
+      { "name": "Home", "href": "/" },
+      { "name": "Blog", "href": "/blog" },
+      { "name": "Resources", "href": "/resources" },
+      { "name": "About", "href": "/about" },
+      { "name": "Contact", "href": "/contact" }
+    ]
   },
-  "home": {
-    "showList": {
-      "type": "blog",
-      "listTitle": "Latest Posts",
-      "listSubtitle": "Guides, history, and resources on abacus and mental math.",
-      "limit": 9
-    }
-  }
+  "footer": {
+    "navigation": [
+      {
+        "title": "Blog",
+        "links": [
+          { "name": "What is an Abacus?", "href": "/blog/what-is-abacus" },
+          { "name": "How to Learn Abacus", "href": "/blog/how-to-learn-abacus" },
+          { "name": "Abacus Classes Near Me", "href": "/blog/abacus-classes-near-me" },
+          { "name": "Who Invented the Abacus?", "href": "/blog/who-invented-abacus" }
+        ]
+      },
+      {
+        "title": "Site",
+        "links": [
+          { "name": "Resources", "href": "/resources" },
+          { "name": "About", "href": "/about" },
+          { "name": "Contact", "href": "/contact" }
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          { "name": "Privacy", "href": "/privacy" },
+          { "name": "Terms", "href": "/terms" }
+        ]
+      }
+    ]
+  },
+  "showSidebar": true,
+  "showToc": true,
+  "showBacklinks": false,
+  "showBuiltWithButton": false
 }
